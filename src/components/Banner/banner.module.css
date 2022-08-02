@@ -13,8 +13,31 @@
 }
 
 .wrapper h1 {
-    padding: 2em 0em;
+    padding: 2.7em 0em;
     font-size: 4em;
     line-height: 1.4em;
     color: #FEF9EF;
+}
+
+.searchbox input {
+    width: 25em;
+}
+
+.searchbox button {
+    width: 10em;
+    background-color: #227C9D;
+    color: #FEF9EF;
+    cursor: pointer;
+}
+
+.searchbox input, button {
+    border: none;
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+.searchbox {
+    /* border: 1px solid red; */
+    padding-top: 2em;
+    text-align: center;
 }

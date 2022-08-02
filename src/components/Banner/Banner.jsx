@@ -6,8 +6,12 @@ function Banner() {
     <div className={styles.banner_container}>
       <div className={styles.wrapper}>
         <h1>
-            Dream, build and <br></br>transform with Google Cloud
+          Dream, build and <br></br>transform with Google Cloud
         </h1>
+        <div className={styles.searchbox}>
+          <input type="search"></input>
+          <button>SEARCH</button>
+        </div>
       </div>
     </div>
   );
