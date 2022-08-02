@@ -1,8 +1,12 @@
-import Header from '../components/Header/Header'
-import React from 'react'
+import Header from "../components/Header/Header";
+import Banner from "../components/Banner/Banner";
+import React from "react";
 
 export default function Home() {
   return (
-    <Header></Header>
-  )
+    <>
+      <Header></Header>
+      <Banner></Banner>
+    </>
+  );
 }
