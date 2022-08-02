@@ -10,18 +10,18 @@ function Header() {
           <div className={styles.logo}>
             <img src={google_logo} alt="google logo"></img>
           </div>
-          <h3>My Company</h3>
+          <h3>Google Cloud</h3>
         </div>
         <div className={styles.navbar}>
           <ul>
             <li>
-              <a href="#menu1">Menu1</a>
+              <a href="#menu1">Why Google</a>
             </li>
             <li>
-              <a href="#menu2">Menu2</a>
+              <a href="#menu2">Products</a>
             </li>
             <li>
-              <a href="#menu3">Menu3</a>
+              <a href="#menu3">Contact us</a>
             </li>
             <li>
               <button>Login</button>

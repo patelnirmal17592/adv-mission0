@@ -4,6 +4,8 @@
     height: 5em;
     display: flex;
     background-color: #FEF9EF;
+    position: sticky;
+    top: 0;
 }
 
 .wrapper {
