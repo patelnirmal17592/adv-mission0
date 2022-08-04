@@ -10,7 +10,7 @@ function Banner() {
         </h1>
         <div className={styles.searchbox}>
           <input type="search" placeholder='Search products...'></input>
-          <button><i className="fa-solid fa-magnifying-glass"></i> SEARCH</button>
+          <button><i className="fa-solid fa-magnifying-glass"></i> Search</button>
         </div>
       </div>
     </div>

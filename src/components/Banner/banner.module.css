@@ -14,14 +14,14 @@
 
 .wrapper h1 {
     padding: 2.7em 0em;
-    font-size: 4em;
+    font-size: 4vw;
     line-height: 1.4em;
     color: #FEF9EF;
     text-shadow: -3px 1px 5px black;
 }
 
 .searchbox input {
-    width: 25em;
+    width: 30vw;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -55,6 +55,32 @@
 
 .searchbox {
     /* border: 1px solid red; */
-    padding-top: 2em;
     text-align: center;
+}
+
+@media screen and (max-width: 1180px) {
+
+    .wrapper h1 {
+        text-align: center;
+    }
+
+    .searchbox input,.searchbox button {
+        font-size: 1.4vw;
+    }
+
+    .banner_container {
+        height: 52vw;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .wrapper h1 {
+        padding-top: 14vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

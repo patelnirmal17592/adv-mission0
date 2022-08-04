@@ -48,6 +48,10 @@
     color: #227C9D;
 }
 
+.navbar ul a:hover {
+    color: #FE6D73;
+}
+
 .navbar ul button {
     /* background-color: #227C9D; */
     border: 1px solid #227C9D;
@@ -58,13 +62,36 @@
     cursor: pointer;
 }
 
+.navbar ul button:hover {
+    background-color: #227C9D;
+    color: white;
+}
+
 @media screen and (max-width: 1024px){
+
+    .logo_container {
+    gap: 2vw;
+    }
+
+    .logo_container h3{
+        font-size: 2vw;
+    }
+
     .navbar ul {
         display: none;
     }
 
     .menu {
-        font-size: 2em;
+        font-size: 4vw;
         display: inline;
     }
+
+    .header_container {
+        height: 7vw;
+    }
+
+    .logo img{
+        height: 5vw;
+    }
+
 }
