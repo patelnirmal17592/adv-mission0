@@ -5,11 +5,16 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #FEF9EF;
 }
 
 .card {
     width: 30em;
     border: 1px solid red;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #227C9D;
+    box-shadow: 0px 5px 15px 4px grey;
 }
 
 .card img {
@@ -19,12 +24,12 @@
 }
 
 .card .card_content {
-    padding-left: 1.5em;
+    padding-left: 1em;
     padding-top: 1em;
-    padding-bottom: 1em;
-    background-color: #FE6D73;
+    padding-bottom: 0.3em;
+    background-color: #227C9D;
     color: #FEF9EF;
-    line-height: 1.6em;;
+    line-height: 1.6em;
     /* border: 1px solid red; */
 }
 

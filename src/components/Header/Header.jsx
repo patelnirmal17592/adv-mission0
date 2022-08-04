@@ -3,6 +3,7 @@ import styles from "./header.module.css";
 import google_logo from "../../images/Google_logo.png";
 
 function Header() {
+
   return (
     <div className={styles.header_container}>
       <div className={styles.wrapper}>
@@ -27,6 +28,7 @@ function Header() {
               <button>Login</button>
             </li>
           </ul>
+          <div className={styles.menu}>☰</div>
         </div>
       </div>
     </div>

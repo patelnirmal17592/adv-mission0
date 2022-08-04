@@ -17,10 +17,18 @@
     font-size: 4em;
     line-height: 1.4em;
     color: #FEF9EF;
+    text-shadow: -3px 1px 5px black;
 }
 
 .searchbox input {
     width: 25em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.searchbox input:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px 3px inset #227C9D;
 }
 
 .searchbox button {
@@ -28,12 +36,21 @@
     background-color: #227C9D;
     color: #FEF9EF;
     cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s background-color, 0.2s color;
 }
 
-.searchbox input, button {
+.searchbox button:hover {
+    color: #227C9D;
+    background-color: #FEF9EF;
+}
+
+.searchbox input,.searchbox button {
     border: none;
     padding: 1em;
     font-size: 1.3em;
+    box-shadow: 0px 0px 5px 2px grey;
 }
 
 .searchbox {

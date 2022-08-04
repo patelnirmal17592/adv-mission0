@@ -27,7 +27,7 @@ function Cards() {
   return (
     <div className={styles.cards_container}>
       {cards.map((value, index) => 
-        <div className={styles.card} index={index}>
+        <div className={styles.card} key={index}>
           <img src={value.image} alt='Google cloud images'></img>
           <div className={styles.card_content}>
             <h4>{value.title}</h4>

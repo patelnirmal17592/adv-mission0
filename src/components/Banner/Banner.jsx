@@ -9,8 +9,8 @@ function Banner() {
           Dream, build and <br></br>transform with Google Cloud
         </h1>
         <div className={styles.searchbox}>
-          <input type="search"></input>
-          <button>SEARCH</button>
+          <input type="search" placeholder='Search products...'></input>
+          <button><i className="fa-solid fa-magnifying-glass"></i> SEARCH</button>
         </div>
       </div>
     </div>
