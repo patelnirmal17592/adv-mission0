@@ -33,8 +33,8 @@
 
 .searchbox button {
     width: 10em;
-    background-color: #227C9D;
-    color: #FEF9EF;
+    background-color: #3F7EE8;
+    color: white;
     cursor: pointer;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -42,8 +42,8 @@
 }
 
 .searchbox button:hover {
-    color: #227C9D;
-    background-color: #FEF9EF;
+    color: #3F7EE8;
+    background-color: white;
 }
 
 .searchbox input,.searchbox button {
