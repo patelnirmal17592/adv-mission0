@@ -1,0 +1,12 @@
+.chatbot_container {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+}
+
+.chatbot_container iframe {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    border-radius: 20px;
+}
