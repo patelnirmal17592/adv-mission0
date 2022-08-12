@@ -6,14 +6,15 @@ const Chatbot = () => {
   const arrowDown = 'rr-angle-down';
   const chat = 'rs-comments';
 
-  const [close, setClose] = useState('400');
+  const [close, setClose] = useState('0');
   // console.log(close);
-  const [botSign, setBotSign] = useState(arrowDown)
+  const [botSign, setBotSign] = useState(chat)
+  const [height, setHeight] = useState('2em')
 
   const handleClose = () => {
     // console.log('close');
-    setClose('0')
-
+    setClose('400')
+    setHeight('28em')
     switch (botSign) {
       case arrowDown:
         setBotSign(chat);
@@ -25,8 +26,9 @@ const Chatbot = () => {
         return null;
     }
     
-    if (close === '0') {
-      setClose('400')
+    if (close === '400') {
+      setClose('0')
+      setHeight('1em')
     }
   }
 
@@ -40,7 +42,7 @@ const Chatbot = () => {
         title="chatBot"
       ></iframe>
       <div className={styles.close} onClick={() => handleClose()}>
-        <i className={`fi fi-${botSign}`}></i>
+        <i className={`fi fi-${botSign}`} style={{position: 'fixed', right: '2.2em', bottom: `${height}`}}></i>
       </div>
     </div>
   );
